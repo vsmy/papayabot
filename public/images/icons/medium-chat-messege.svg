@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="225" viewBox="0 0 263 225">
+    <defs>
+        <rect id="b" width="328" height="93" rx="14"/>
+        <filter id="a" width="164.6%" height="328%" x="-29%" y="-102.2%" filterUnits="objectBoundingBox">
+            <feOffset dx="11" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="33.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.152728202 0 0 0 0 0.154919794 0 0 0 0 0.212069746 0 0 0 0.129479895 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(55 55)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" fill-opacity=".801" xlink:href="#b"/>
+        </g>
+        <circle cx="24" cy="24" r="24" fill="#FDC06E" transform="translate(79 78)"/>
+        <path fill="#FFF" d="M92.83 94c-.239 0-.46.047-.668.13l10.747 9.407c.372.325.84.325 1.21 0l10.728-9.407a1.848 1.848 0 0 0-.676-.13H92.829zm-1.801 1.537c-.017.1-.029.2-.029.306v12.314c0 .268.071.512.171.741l7.365-6.787-7.507-6.574zm24.952.01l-7.489 6.555 7.356 6.797c.1-.228.152-.475.152-.741V95.843c0-.102-.004-.2-.02-.296zm-8.851 7.75l-1.782 1.564a2.813 2.813 0 0 1-3.668 0l-1.781-1.555-7.25 6.685c.061.006.117.009.18.009h21.342c.066 0 .136-.003.2-.01l-7.241-6.694z"/>
+        <text font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" letter-spacing="-.28" transform="translate(55 55)">
+            <tspan x="96" y="52" fill="#1A1A23">28 XLM has been transfered from</tspan> <tspan x="302.626" y="52" fill="#4D495B"> </tspan> <tspan x="96" y="72" fill="#553AD8">@</tspan> <tspan x="106.92" y="72" fill="#5438DC">johnsmith</tspan> <tspan x="168.38" y="72" fill="#4D495B"> </tspan> <tspan x="171.6" y="72" fill="#1A1A23">to</tspan> <tspan x="184.34" y="72" fill="#4D495B"> </tspan> <tspan x="187.56" y="72" fill="#5439DC">@natalie</tspan>
+        </text>
+        <text fill="#FDC06E" font-family="AvenirNext-Bold, Avenir Next" font-size="11" font-weight="bold" letter-spacing="-.22" transform="translate(55 55)">
+            <tspan x="96" y="26">Papayabot</tspan>
+        </text>
+    </g>
+</svg>

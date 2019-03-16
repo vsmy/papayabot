@@ -5,33 +5,33 @@
                 <h4 class="title text-center" style="color: #2b137f; font-weight: 900">Papayabot</h4>
             </div>
           <div class="col-md-6">
-              <div class="d-flex justify-content-around">
-                  <a style="    font-weight: 900;" href="#">About</a>
-                  <a style="    font-weight: 900;" href="#">Tearms and conditions </a>
-                  <a style="    font-weight: 900;" href="#">FAQ</a>
+              <div class="d-flex justify-content-around pages-links">
+                  <a  style="    font-weight: 900;" href="/about">About</a>
+                  <a  style="    font-weight: 900;" href="terms_condition">Tearms and conditions </a>
+                  <a  style="    font-weight: 900;" href="/faq">FAQ</a>
               </div>
 
-              <p class="subtitle text-center">Do you have questions? Mail us at: papayabot.com</p>
+              <p class="question text-center">Do you have a questions?  Mail us at: <span>papayabot@gmail.com</span></p>
           </div>
           <div class="col-md-3" >
               <div class="social-icon  ">
                   <ul class="navbar-nav ml-auto">
                       <li>
-                          <a class="icon youtube waves-effect waves-light" target="_blank" href="https://www.youtube.com/channel/UCTfsH5M5BmgpLW1WrMrNm2A"></a>
+                          <a class="icon facebook waves-effect waves-light" target="_blank" href="#"></a>
                       </li>
                       <li>
-                          <a class="icon facebook waves-effect waves-light" target="_blank" href="https://www.facebook.com/intobiapp/"></a>
+                          <a class="icon twitter waves-effect waves-light" target="_blank" href="#"></a>
                       </li>
                       <li>
-                          <a class="icon instagram waves-effect waves-light" target="_blank" href="https://www.instagram.com/intobiapp/"></a>
+                          <a class="icon linked waves-effect waves-light" target="_blank" href="#"></a>
                       </li>
                   </ul>
               </div>
           </div>
       </div>
 <div class="row justify-content-center">
-    <div class="subtitle">
-        3242343243243243
+    <div class="licence">
+        © 2019 Papaya. All Rights Reserved.
     </div>
 </div>
   </div>
