@@ -4,6 +4,7 @@
 
 // Variables
 @import 'variables';
+@import 'media';
 
 @font-face {font-family: "Gerbera";
   src: url("//db.onlinewebfonts.com/t/994fa1f12fbd90502c95b68c33efc23c.eot");
@@ -16,11 +17,33 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.ml-80 {
+  margin-left: 80px;
 }
-
+.btn-papayabot-blue {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Gerbera;
+  font-size: 15px;
+  font-stretch: normal;
+  line-height: 2.07;
+  letter-spacing: normal;
+  background-color: #5438dc;
+  padding: 9px 44px 10px 45px;
+}
+.btn-papayabot {
+  color: #5438dc;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Gerbera;
+  font-size: 15px;
+  font-stretch: normal;
+  line-height: 2.07;
+  letter-spacing: normal;
+  background-color: #ffffff;
+  padding: 9px 44px 10px 45px;
+}
 .title {
   font-family: Gerbera;
   font-weight: 400;
@@ -37,6 +60,16 @@
     color: #ffffff;
   }
 }
+.timestamp {
+  font-family: Gerbera;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  color: #74cfad;
+}
 .subtitle {
   width: 70%;
   opacity: 0.85;
@@ -47,6 +80,12 @@
   letter-spacing: normal;
   color: #ffffff;
   margin: 18px 0 26px;
+}
+.seemore {
+  content: url("/images/icons/seemore.svg");
+  margin-left: 10px;
+  width: 14px;
+  height: 8px;
 }
 html, body {
   background-color: #fff;
@@ -84,7 +123,6 @@ header {
   linear-gradient(1deg, #220b6d, #4b33c2);
   padding: 30px 50px 50px 50px;
   .title-logo {
-    padding: 30px 0 0px 0;
     height: 30px;
     object-fit: contain;
     font-family: Gerbera;
@@ -98,40 +136,50 @@ header {
   }
   .home-bg {
     content: url("/images/backgrounds/header.png");
+    width: 100%;
   }
   .about-bg {
     content: url("/images/backgrounds/about.png");
+    width: 100%;
   }
-  .btn-papayabot {
-    color: #5438dc;
-    font-weight: bold;
-    font-style: normal;
-    font-family: Gerbera;
-    font-size: 15px;
-    font-stretch: normal;
-    line-height: 2.07;
-    letter-spacing: normal;
-    background-color: #ffffff;
-    padding: 9px 44px 10px 45px;
-  }
+
   .header-title {
       margin: 0px 5px 130px 5px;
   }
 }
 
 section {
+  &.terms {
+    background: #5438dc;
+    margin: unset;
+    .title-logo {
+      color: white;
+      padding: 25px;
+    }
+    .subtitle {
+      max-width: 883px;
+      height: 390px;
+    }
+  }
   &.custom {
-    background: url(/images/backgrounds/custom.svg) 122% -1px no-repeat, linear-gradient(1deg, #ffffff, #ffffff);
-    padding: 200px 0;
-    background-size: 85% 100%;
+    background: #f8f8fe;
+    padding: 69px 0;
+    margin-left: 10%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     &.revers {
-      background: url(/images/backgrounds/custom-revers.svg) -14% 91px no-repeat, linear-gradient(1deg, #ffffff, #ffffff)
+      margin-left: unset;
+      margin-right: 10%;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
     }
     .custom-bg {
       content: url("/images/backgrounds/custom.png");
+        width: 100%;
     }
     .custom-two-bg {
       content: url("/images/backgrounds/custom-two.png");
+        width: 100%;
     }
 
   }
@@ -139,10 +187,17 @@ section {
     .bitmap-bg {
       content: url("/images/backgrounds/bitmap.png");
       margin-left: -40px;
+        width: 100%;
+    }
+    .bitmap-two-bg {
+      content: url("/images/backgrounds/bitmap-two.png");
+      margin-left: -40px;
+        width: 100%;
     }
     .mobile-about {
       content: url("/images/backgrounds/mobile-about.png");
       margin-left: -40px;
+        width: 100%;
     }
 
   }
@@ -168,42 +223,55 @@ section {
       }
     }
     .monitoring-bg {
-      content: url("/images/backgrounds/monitoring-bg.png");
+      width: 100%;
+
     }
   }
   &.transfer {
     margin: unset;
-    background:  url(/images/icons/medium-chat-messege.png) 100% 115px no-repeat, url(/images/icons/deff-yen.svg) 94% 68% no-repeat, url(/images/icons/deff-eu.svg) 67% 26% no-repeat, url(/images/icons/deff-doll.svg) 33% 78% no-repeat, url(/images/icons/rocket-rigth.svg) 74% 78% no-repeat, url(/images/icons/rocket.svg) 13% 33% no-repeat, url(/images/icons/chat-messege.png) -1% 89% no-repeat, #f9f9fe;
-
+    background:  url(/images/icons/medium-chat-messege.png) 100% 115px no-repeat,
+    url(/images/icons/deff-yen.svg) 94% 68% no-repeat,
+    url(/images/icons/deff-eu.svg) 67% 26% no-repeat,
+    url(/images/icons/deff-doll.svg) 33% 78% no-repeat,
+    url(/images/icons/rocket-rigth.svg) 74% 78% no-repeat,
+    url(/images/icons/rocket.svg) 13% 33% no-repeat,
+    url(/images/icons/chat-messege.png) -1% 89% no-repeat,
+    #f9f9fe;
     padding: 90px 0 200px 0;
-    .btn-papayabot-blue {
-      color: #fff;
-      font-weight: bold;
-      font-style: normal;
-      font-family: Gerbera;
-      font-size: 15px;
-      font-stretch: normal;
-      line-height: 2.07;
-      letter-spacing: normal;
-      background-color: #5438dc;
-      padding: 9px 44px 10px 45px;
+    &.custom {
+      background:
+      url(/images/icons/deff-yen.svg) 94% 68% no-repeat,
+      url(/images/icons/deff-eu.svg) 67% 26% no-repeat,
+      url(/images/icons/deff-doll.svg) 33% 78% no-repeat,
+      url(/images/icons/rocket-rigth.svg) 74% 78% no-repeat,
+      url(/images/icons/rocket.svg) 13% 33% no-repeat,
+      linear-gradient(to top, #281075, #4b33c2);
+      padding: 90px 0 100px 0;
+      .title {
+        color: white;
+      }
     }
     .transfer-setting {
+      margin-top: -185px;
       .box {
         background: #230e65;
         align-items: center;
         border-radius: 15px;
         padding: 48px;
-        .icons {
-          margin-bottom: unset;
-          &.member-icon  {
-            content: url("/images/icons/member.svg");
-          }
-          &.time-icon {
-            content: url("/images/icons/time.svg");
-          }
-          &.money-icon {
-            content: url("/images/icons/money.svg");
+        justify-content: space-between;
+        .transfer-param {
+          padding: 20px;
+          .icons {
+            margin-bottom: unset;
+            &.member-icon  {
+              content: url("/images/icons/member.svg");
+            }
+            &.time-icon {
+              content: url("/images/icons/time.svg");
+            }
+            &.money-icon {
+              content: url("/images/icons/money.svg");
+            }
           }
         }
         .title {
@@ -310,8 +378,10 @@ section {
       }
 
     }
+
     .icons {
       margin-bottom: 29px;
+
       &.chat-icon {
         content: url("/images/icons/chat.svg");
       }
@@ -324,10 +394,6 @@ section {
     }
 
 }
-
-
-
-
 
 footer {
   .title {
@@ -359,7 +425,6 @@ footer {
   }
   .question {
     font-size: 15px;
-    width: 435px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -438,5 +503,107 @@ footer {
   }
 
 }
+
+.faq {
+  .accordion-item .accordion-title {
+    box-shadow: 11px 11px 67px 0 rgba(39, 40, 54, 0.08);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: unset;
+    border-radius: 20px;
+    margin: 24px 0;
+  }
+
+  .accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+
+  .accordion a:hover,
+  .accordion a:hover::after {
+    cursor: pointer;
+  }
+
+
+  .accordion a.active {
+    color: #03b5d2;
+  }
+
+  .accordion .accordion-title a::after  {
+    font-family: 'Ionicons';
+    content: url("/images/icons/seemore-faq.svg");
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  .accordion .accordion-title.active a::after {
+    content: url("/images/icons/seemore-faq.svg");
+    transform: rotate(180deg);
+  }
+
+  .accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: $faq_transl_start;
+    -o-transition: $faq_transl_start;
+    transition: $faq_transl_start;
+    p {
+      font-family: Gerbera;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: -0.5px;
+      color: #7b798b87;
+      span {
+        color: #5438dc;
+      }
+    }
+  }
+
+  .accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: $faq_transl_finish;
+    -o-transition: $faq_transl_finish;
+    transition: $faq_transl_finish;
+  }
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+
 
 

@@ -1,0 +1,224 @@
+.footer-social-logo {
+  display: none ;
+}
+.monitoring-bg-mob {
+  display: none;
+}
+@media (max-width: 991px) {
+  header {
+    &.about {
+      background: url("/images/backgrounds/header-vector.svg") -584px -168px no-repeat, url("/images/backgrounds/rectangle.svg") 100% 100% no-repeat, linear-gradient(1deg, #220b6d, #4b33c2) !important;
+    }
+    background:url("/images/backgrounds/header-vector.svg") -117% -78px no-repeat, url("/images/backgrounds/header-vector1.svg") -22px 100% no-repeat, linear-gradient(1deg, #220b6d, #4b33c2) !important;
+  }
+  .logo h5 {
+    margin-left: -50px;
+    height: unset !important;
+  }
+  .title {
+    font-size: 2em;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    .header-title {
+      margin: 50px 5px 20px 5px!important;
+      .title, .subtitle {
+        text-align: center!important;
+      }
+      .title {
+        font-size: 2.25rem!important;
+      }
+      .subtitle {
+        margin: 37px !important;
+        width: unset !important;
+      }
+      .btn-papayabot {
+        display: flex!important;
+        margin: auto!important;
+      }
+    }
+  }
+  section {
+    &.custom {
+      padding: 80px 50px !important;
+      background: #f8f8fe !important;
+      margin-left: 22px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+      &.revers {
+        margin-left: unset!important;
+        margin-right: 22px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+      }
+      .custom-bg {
+        width: calc(100% - 23%)  !important;
+      }
+    }
+    .custom-content {
+      flex-direction: column-reverse;
+      .header-title {
+        margin-top: 70px;
+      }
+    }
+    &.standard {
+      .bitmap-two-bg {
+        margin: auto !important;
+        width: calc(100% - 23%)  !important;
+      }
+      .header-title {
+        margin-top: 50px;
+      }
+    }
+    &.transfer {
+      background: url(/images/icons/medium-chat-messege.png) 124% 27px no-repeat,
+      url(/images/icons/deff-yen.svg) 96% 47% no-repeat,
+      url(/images/icons/deff-eu.svg) 67% 26% no-repeat,
+      url(/images/icons/deff-doll.svg) 16% 95% no-repeat,
+      url(/images/icons/rocket-rigth.svg) 76% 83% no-repeat,
+      url(/images/icons/rocket.svg) 6% 27% no-repeat,
+      url(/images/icons/chat-messege.png) -34% 89% no-repeat,
+      #f9f9fe !important;
+    }
+    .deff-content {
+      display: flex;
+      .icons {
+        margin-right: 25px;
+      }
+    }
+  }
+}
+@media (max-width: 425px){
+ header {
+    padding: 20px !important;
+    .logo {
+      .title-logo {
+        padding: unset !important;
+        margin-left: unset !important;
+      }
+    }
+   .header-title {
+     .title {
+       font-size: 25px !important;
+     }
+     .subtitle {
+       font-size: 15px !important;
+       margin: 20px 12px 45px 12px !important;
+     }
+   }
+ }
+  section {
+    padding: 0 28px;
+    margin-top: 25px !important;
+    .mt-100 {
+      margin-top: unset!important;
+    }
+    .title {
+      margin: 11px 0 !important;
+      font-size: 25px !important;
+    }
+    &.monitoring {
+      .title {
+        padding: 0 30px;
+      }
+      .monitoring-bg-mob {
+        display: block;
+      }
+      .monitoring-bg {
+        display: none;
+      }
+
+    }
+    &.transfer {
+      background:url(/images/icons/medium-chat-messege.png) 172% 31px no-repeat,
+      url(/images/icons/deff-yen.svg) 103% 76% no-repeat,
+      url(/images/icons/deff-eu.svg) 41% 15% no-repeat,
+      url(/images/icons/bitcoin.svg) 7% 58% no-repeat,
+      url(/images/icons/rocket-rigth.svg) 89% 92% no-repeat,
+      url(/images/icons/rocket.svg) 11% 25% no-repeat,
+      url(/images/icons/chat-messege.png) -180% 103% no-repeat,
+      #f9f9fe !important;
+      .title {
+        padding: 0 30px;
+      }
+      .transfer-setting {
+        padding: 0 30px !important;
+        margin-top: -235px !important;
+        .box {
+          flex-direction: column !important;
+          padding: 5px 20px !important;
+          align-items: unset !important;
+            .transfer-param {
+              align-items: center;
+              justify-content: space-between;
+              display: flex;
+              padding: 5px 20px !important;
+              .subtitle {
+                width: unset!important;
+              }
+              .title {
+                padding: unset!important;
+              }
+            }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px){
+  header {
+    .title-logo {
+      font-size: 20px !important;
+    }
+    .header-title {
+      .title {
+        font-size: 19px !important;
+      }
+    }
+  }
+  section {
+    padding: 20px 13px;
+    .title {
+      font-size: 20px !important;
+    }
+    .subtitle {
+      font-size: 14px !important;
+    }
+   &.custom {
+     padding: 15px 15px !important;
+   }
+    &.transfer {
+      background: url(/images/icons/medium-chat-messege.png) 315% -19px no-repeat,
+      url(/images/icons/deff-doll.svg) 44% 11% no-repeat,
+      url(/images/icons/bitcoin.svg) 108% 58% no-repeat,
+      url(/images/icons/rocket-rigth.svg) 86% 87% no-repeat,
+      url(/images/icons/rocket.svg) -6% 14% no-repeat,
+      url(/images/icons/chat-messege.png) 212% 103% no-repeat ,
+      #f9f9fe !important;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .pages-links {
+    flex-direction: column;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    .footer-social-logo {
+      display: block !important;
+      margin: auto;
+      margin-left: unset;
+    }
+    .social-icon ul li {
+      margin: 15px 0;
+    }
+  }
+
+}

@@ -22,5 +22,5 @@ Route::get('/about', function () {
     return view('about');
 });
 Route::get('/terms_condition', function () {
-    return view('about');
+    return view('terms_condition');
 });
