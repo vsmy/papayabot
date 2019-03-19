@@ -1,24 +1,22 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends ('layout.app')
 
-    <title>Laravel</title>
+@section('title')
+    FAQ
+@stop
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
+@section('title')
+    FAQ
+@stop
+
+@section ('content')
 
 
-</head>
-<body>
 <header class="about">
     <div class="container ">
         <div class="row">
             <div class="col-md-6 d-flex flex-column justify-content-sm-between">
                 <div class="logo">
-                    <h5 class="title-logo">Papayabot</h5>
+                    <a  href="{{route('welcome')}}"><h5 class="title-logo">Papayabot</h5></a>
                 </div>
                 <div class="header-title">
                     <h1 class="title black">
@@ -33,8 +31,8 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567" height="390" viewBox="0 0 567 390">
+                <div class="m-auto faq-bg" >
+                    <svg  class="faq-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567" height="390" viewBox="0 0 567 390">
                         <style>
                             .Mask {width: 533.6px;
                                 height: 335.6px;
@@ -272,12 +270,10 @@
     </div>
 </header>
 
-
-
 <section class="standard faq" >
     <div class="container">
 
-        <h2>Frequently Asked Questions</h2>
+        <h2 class="title">Frequently Asked Questions</h2>
 
         <div class="accordion">
             <div class="accordion-item">
@@ -326,23 +322,9 @@
 </section>
 
 
+@endsection
 
 
 
-<br><br><br>
 
 
-@include('layout.footer')
-
-</body>
-<script>
-    const items = document.querySelectorAll(".accordion .accordion-title");
-
-    function toggleAccordion(){
-        this.classList.toggle('active');
-        this.nextElementSibling.classList.toggle('active');
-    }
-
-    items.forEach(item => item.addEventListener('click', toggleAccordion));
-</script>
-</html>

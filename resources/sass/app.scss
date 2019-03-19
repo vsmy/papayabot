@@ -1,4 +1,3 @@
-
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
@@ -14,12 +13,32 @@
   url("//db.onlinewebfonts.com/t/994fa1f12fbd90502c95b68c33efc23c.ttf") format("truetype"),
   url("//db.onlinewebfonts.com/t/994fa1f12fbd90502c95b68c33efc23c.svg#Gerbera") format("svg");
 }
+@font-face {font-family: "Gerbera-b";
+  src: url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.eot");
+  src: url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/d5062d6c59c0db05efc3a6baf3d4c0ee.svg#Gerbera") format("svg");
+}
+@font-face {font-family: "Gerbera-m";
+  src: url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.eot");
+  src: url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/8e55cf2228217dcbc76a1fc8fbaf2a32.svg#Gerbera") format("svg");
+}
+a:hover {
+  text-decoration: none !important;
+}
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 .ml-80 {
   margin-left: 80px;
 }
+
 .btn-papayabot-blue {
   color: #fff;
   font-weight: bold;
@@ -32,6 +51,7 @@
   background-color: #5438dc;
   padding: 9px 44px 10px 45px;
 }
+
 .btn-papayabot {
   color: #5438dc;
   font-weight: bold;
@@ -44,11 +64,15 @@
   background-color: #ffffff;
   padding: 9px 44px 10px 45px;
 }
+h1 {
+  font-size: 44px;
+}
 .title {
   font-family: Gerbera;
   font-weight: 400;
   color: #fff;
   margin: 0;
+
   &.header {
 
     font-size: 44px;
@@ -60,6 +84,7 @@
     color: #ffffff;
   }
 }
+
 .timestamp {
   font-family: Gerbera;
   font-size: 14px;
@@ -70,23 +95,29 @@
   letter-spacing: normal;
   color: #74cfad;
 }
+
 .subtitle {
-  width: 70%;
   opacity: 0.85;
   font-size: 17px;
   font-style: normal;
+  font-weight: 900;
   font-stretch: normal;
   line-height: 1.65;
   letter-spacing: normal;
   color: #ffffff;
   margin: 18px 0 26px;
+  @media (min-width: 1200px) {
+    margin: 18px 143px 45px 0;
+  }
 }
+
 .seemore {
   content: url("/images/icons/seemore.svg");
   margin-left: 10px;
   width: 14px;
   height: 8px;
 }
+
 html, body {
   background-color: #fff;
   color: #636b6f;
@@ -113,7 +144,8 @@ html, body {
 
 header {
   &.about {
-    background:url("/images/backgrounds/header-vector.svg") -46% -182px no-repeat, url("/images/backgrounds/rectangle.svg") 100% 100% no-repeat, linear-gradient(1deg, #220b6d, #4b33c2);
+    overflow: hidden;
+   background: url("/images/backgrounds/header-vector.svg") -26% -172px no-repeat, url("/images/backgrounds/rectangle.svg") 100% 100% no-repeat, linear-gradient(1deg, #220b6d, #4b33c2);
     .header-title {
       margin: 150px 5px 130px 5px;
     }
@@ -149,9 +181,22 @@ header {
 }
 
 section {
+  .post-press {
+    .post {
+      overflow: hidden;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 11px 11px 46px 0 rgba(39, 40, 54, 0.07);
+      .toggle {
+          cursor: pointer;
+          color: #5438dc;
+          font-weight: bold;
+      }
+    }
+  }
   &.terms {
+    margin-top: unset !important;
     background: #5438dc;
-    margin: unset;
     .title-logo {
       color: white;
       padding: 25px;
@@ -170,6 +215,8 @@ section {
     &.revers {
       margin-left: unset;
       margin-right: 10%;
+      border-top-left-radius:  unset;
+      border-bottom-left-radius: unset;
       border-top-right-radius: 25px;
       border-bottom-right-radius: 25px;
     }
@@ -181,7 +228,24 @@ section {
       content: url("/images/backgrounds/custom-two.png");
         width: 100%;
     }
-
+      .about-team {
+        @media (max-width:  991px) {
+          flex-direction: column;
+          .member-info {
+            margin: 20px 0 0 0 !important;
+            text-align: center;
+          }
+        }
+        padding: 50px;
+        border-radius: 20px;
+        backdrop-filter: blur(7px);
+        box-shadow: 11px 11px 67px 0 rgba(39, 40, 54, 0.08);
+        background-color: rgba(255, 255, 255, 0.8);
+        .member-img {
+          width: 130px;
+          height: 130px;
+        }
+      }
   }
   &.standard {
     .bitmap-bg {
@@ -227,6 +291,21 @@ section {
 
     }
   }
+  &.contact {
+    background:
+            url(/images/icons/deff-yen.svg) 94% 68% no-repeat,
+            url(/images/icons/deff-eu.svg) 67% 26% no-repeat,
+            url(/images/icons/deff-doll.svg) 33% 78% no-repeat,
+            url(/images/icons/rocket-rigth.svg) 74% 78% no-repeat,
+            url(/images/icons/rocket.svg) 13% 33% no-repeat,
+            linear-gradient(to top, #281075, #4b33c2);
+    padding: 90px 0 100px 0;
+    .title {
+      color: white;
+    }
+
+
+  }
   &.transfer {
     margin: unset;
     background:  url(/images/icons/medium-chat-messege.png) 100% 115px no-repeat,
@@ -238,19 +317,6 @@ section {
     url(/images/icons/chat-messege.png) -1% 89% no-repeat,
     #f9f9fe;
     padding: 90px 0 200px 0;
-    &.custom {
-      background:
-      url(/images/icons/deff-yen.svg) 94% 68% no-repeat,
-      url(/images/icons/deff-eu.svg) 67% 26% no-repeat,
-      url(/images/icons/deff-doll.svg) 33% 78% no-repeat,
-      url(/images/icons/rocket-rigth.svg) 74% 78% no-repeat,
-      url(/images/icons/rocket.svg) 13% 33% no-repeat,
-      linear-gradient(to top, #281075, #4b33c2);
-      padding: 90px 0 100px 0;
-      .title {
-        color: white;
-      }
-    }
     .transfer-setting {
       margin-top: -185px;
       .box {
@@ -505,6 +571,16 @@ footer {
 }
 
 .faq {
+  .title {
+    font-family: Gerbera;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.23;
+    letter-spacing: -0.3px;
+    color: #1b1b23;
+  }
   .accordion-item .accordion-title {
     box-shadow: 11px 11px 67px 0 rgba(39, 40, 54, 0.08);
     background-color: rgba(255, 255, 255, 0.8);
@@ -526,7 +602,7 @@ footer {
     flex-direction: column;
     width: 100%;
     padding: 30px;
-    color: #7288a2;
+    color: #1b1b23;
     font-size: 1.15rem;
     font-weight: 400;
   }
@@ -596,10 +672,6 @@ footer {
     transition: $faq_transl_finish;
   }
 }
-
-
-
-
 
 
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400');

@@ -1,28 +1,25 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends ('layout.app')
 
-    <title>Laravel</title>
+@section('title')
+    Tearms and conditions
+@stop
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
+@section('title')
+    Tearms and conditions
+@stop
 
-</head>
-<body>
+@section ('content')
+
 <section class="terms">
     <div class="container ">
-        <div class="row justify-content-sm-between">
-            <h5 class="title-logo">Papayabot</h5>
+        <div class="row justify-content-between">
+            <div class="logo">
+                <a  href="{{route('welcome')}}"><h5 class="title-logo">Papayabot</h5></a>
+            </div>
             <a href="/" class="title-logo">Back to homepage</a>
         </div>
     </div>
 </section>
-
-
-
 
 <section class="standard" >
     <div class="container ">
@@ -67,9 +64,4 @@
     </div>
 </section>
 
-
-
-<br><br><br>
-@include('layout.footer')
-</body>
-</html>
+@endsection

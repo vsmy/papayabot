@@ -10,17 +10,25 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',                'Controller@index')            ->name('welcome');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/faq',                'Controller@faq')            ->name('faq');
 
-Route::get('/faq', function () {
-    return view('faq');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/terms_condition', function () {
-    return view('terms_condition');
-});
+Route::get('/about',                'Controller@about')            ->name('about');
+
+Route::get('/terms_condition',                'Controller@terms_condition')            ->name('terms_condition');
+
+
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+//
+//Route::get('/faq', function () {
+//    return view('faq');
+//});
+//Route::get('/about', function () {
+//    return view('about');
+//});
+//Route::get('/terms_condition', function () {
+//    return view('terms_condition');
+//});
