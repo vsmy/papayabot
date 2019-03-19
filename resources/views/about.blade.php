@@ -574,7 +574,7 @@
                                 <img src="/images/common/member.png" alt="">
                             </div>
                             <div class="member-info m-auto">
-                                <h3 class="title">Sergey Yusupov</h3>
+                                <h3 class="title">William Deng</h3>
                                 <h5 class="subtitle mt-3">Technology Director</h5>
                             </div>
                         </div>
@@ -597,20 +597,15 @@
                     <div class="mt-5 post-press col-md-4 blogBox ">
                         <div class="post">
                             <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
                             </div>
-                            <div style=" padding: 12px 24px;">
+                            <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
                                 <h4 class="title black">
                                     Lorem ipsum dolor sit amet
                                 </h4>
                                 <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 </h5>
                             </div>
                         </div>
@@ -618,41 +613,15 @@
                     <div class="mt-5 post-press col-md-4 blogBox ">
                         <div class="post">
                             <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
                             </div>
-                            <div style=" padding: 12px 24px;">
+                            <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
                                 <h4 class="title black">
                                     Lorem ipsum dolor sit amet
                                 </h4>
                                 <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-5 post-press col-md-4 blogBox moreBox " style="display: none">
-                        <div class="post">
-                            <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
-                            </div>
-                            <div style=" padding: 12px 24px;">
-                                <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
-                                <h4 class="title black">
-                                    Lorem ipsum dolor sit amet
-                                </h4>
-                                <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 </h5>
                             </div>
                         </div>
@@ -660,20 +629,15 @@
                     <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
                             <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
                             </div>
-                            <div style=" padding: 12px 24px;">
+                            <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
                                 <h4 class="title black">
                                     Lorem ipsum dolor sit amet
                                 </h4>
                                 <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 </h5>
                             </div>
                         </div>
@@ -681,20 +645,15 @@
                     <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
                             <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
                             </div>
-                            <div style=" padding: 12px 24px;">
+                            <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
                                 <h4 class="title black">
                                     Lorem ipsum dolor sit amet
                                 </h4>
                                 <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 </h5>
                             </div>
                         </div>
@@ -702,36 +661,31 @@
                     <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
                             <div>
-                                <img style="width: 100%" src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
                             </div>
-                            <div style=" padding: 12px 24px;">
+                            <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
                                 <h4 class="title black">
                                     Lorem ipsum dolor sit amet
                                 </h4>
                                 <h5 class="subtitle description">
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
-                                    text   text  text  text  text  text  text  text  text  text  text  text  text
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                                 </h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
-                    <a id="loadMore" style="color: black" href=""><h5 class="title">See more <span class="seemore"></span></h5></a>
+                    <a id="loadMore" href=""><h5 class="title  text-secondary ">See more <span class="seemore"></span></h5></a>
                 </div>
             </div>
         </section>
 
-        <section class="contact mt-5" style="border-radius: unset">
+        <section class="contact mt-5 rounded-0" >
 
             <div class="container">
                 <div class="row justify-content-center">
-                    <h1 style="width: 678px;" class="title text-center">Are you interested partnership?</h1>
+                    <h1  class="title text-center">Are you interested partnership?</h1>
                 </div>
                 <div class="row justify-content-center mt-5">
                     <button class="btn btn-papayabot">Contact us</button>
@@ -755,8 +709,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>
             $(document).ready(function() {
-                // Configure/customize these variables.
-                let showChar = 100;  // How many characters are shown by default
+                let showChar = 100;
                 let ellipsestext = "...";
                 let moretext = "Show more";
                 let lesstext = "Show less";
