@@ -13,7 +13,7 @@
         <header class="about">
             <div class="container ">
                 <div class="row">
-                    <div class="col-md-6 d-flex flex-column justify-content-sm-between">
+                    <div class="col-md-5 d-flex flex-column">
                         <div class="logo">
                             <a  href="{{route('welcome')}}"><h5 class="title-logo">Papayabot</h5></a>
                         </div>
@@ -26,12 +26,10 @@
                                 fast, free and secure transactions.
                             </div>
                         </div>
-                        <div class="text-xs-center">
-                        </div>
+
                     </div>
-                    <div class="col-md-6">
-                        <div >
-                            <svg style="width: 100%;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="602px" height="399px" viewBox="0 0 602 399" version="1.1">
+                    <div class="col-md-7 d-flex align-items-center justify-content-center">
+                            <svg class="about-bg-svg" style="width: 100%;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="602px" height="399px" viewBox="0 0 602 399" version="1.1">
                                 <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
                                 <title>0EC21748-D8DF-4FA8-B1E9-8A64F0D35117</title>
                                 <desc>Created with sketchtool.</desc>
@@ -498,58 +496,59 @@
                                     </g>
                                 </g>
                             </svg>
-                        </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="standard" >
-            <div class="container ">
+        <section class="standard mt-0 overflow-hidden" >
+            <div class="container about-mob">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="mobile-about"></div>
+                        <div class="mobile-about ml-0" style="margin-top: -25px"></div>
                     </div>
                     <div class="col-md-6 d-flex flex-column justify-content-center">
                         <div class="header-title">
-                            <h1 class="title black">
+                            <h2 class="title black">
                                 Our mission
-                            </h1>
-                            <div class="subtitle">
+                            </h2>
+                            <div class="subtitle section-margin ">
                                 Don’t worry about managing private keys or security. Make payments for free inside Telegram until you need send crypto to external wallets. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </div>
 
                         </div>
                         <div class="text-xs-center">
-                            <h3 class="title black">
+                            <div class="partners-title title black">
                                 Our partners
-                            </h3>
-                         <div class="mt-5 col-sm-12 our_partners">
-                             <img src="/images/icons/about/stellar.svg" alt="">
-                             <img  src="/images/icons/about/paysend.svg" alt="">
-                             <img  src="/images/icons/about/bitgo.svg" alt="">
-                         </div>
+                            </div>
+                            <div class="our_partners">
+                                <img src="/images/icons/about/stellar.svg" alt="">
+                                <img  src="/images/icons/about/paysend.svg" alt="">
+                                <img  src="/images/icons/about/bitgo.svg" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="mt-1 col-md-12  our_partners_mob">
-                        <img src="/images/icons/about/stellar.svg" alt="">
-                        <img  src="/images/icons/about/paysend.svg" alt="">
-                        <img  src="/images/icons/about/bitgo.svg" alt="">
-                    </div>
                 </div>
-
+            </div>
+            <div class="container part-mob">
+                <h3 class="partners-title-mob  text-center title black ">  Our partners</h3>
+                <div class="mt-1 col-md-12  our_partners_mob ">
+                    <img src="/images/icons/about/stellar.svg" alt="">
+                    <img  src="/images/icons/about/paysend.svg" alt="">
+                    <img  src="/images/icons/about/bitgo.svg" alt="">
+                </div>
             </div>
         </section>
-
-        <section class="custom" >
+        <br>
+        <section style="padding: 88px 0 109px 57px;" class="custom our-team">
             <div class="container ">
-                <div class="row">
+                <div class="row team-center">
                     <div class="col-md-12">
                         <div class="header-title">
-                            <h1 class="title black">
+                            <h2 class="title black">
                                 Our team
-                            </h1>
-                            <h5 class="subtitle">
+                            </h2>
+                            <h5 class="col-md-6 col-sm-12 subtitle p-0">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </h5>
 
@@ -557,47 +556,49 @@
                         <div class="text-xs-center">
                         </div>
                     </div>
-                    <div class="col-md-6 out_team">
-                        <div class="d-flex about-team">
-                            <div class="member-img m-auto">
-                                <img src="/images/common/member.png" alt="">
-                            </div>
-                            <div class="member-info m-auto">
-                                <h3 class="title">Sergey Yusupov</h3>
-                                <h5 class="subtitle mt-3">Technology Director</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 out_team">
-                        <div class="d-flex about-team">
-                            <div class="member-img m-auto">
-                                <img src="/images/common/member.png" alt="">
-                            </div>
-                            <div class="member-info m-auto">
-                                <h3 class="title">William Deng</h3>
-                                <h5 class="subtitle mt-3">Technology Director</h5>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="d-flex team">
+                       <div class="out_team">
+                           <div class="d-flex about-team">
+                               <div class="member-img m-auto">
+                                   <img src="/images/common/member.png" alt="">
+                               </div>
+                               <div class="member-info m-auto">
+                                   <h3 class="title team-title">Sergey Yusupov</h3>
+                                   <h5 class="subtitle mt-3">Technology Director</h5>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="out_team">
+                           <div class="d-flex about-team">
+                               <div class="member-img m-auto">
+                                   <img src="/images/common/member.png" alt="">
+                               </div>
+                               <div class="member-info m-auto">
+                                   <h3 class="title team-title">William Deng</h3>
+                                   <h5 class="subtitle mt-3">Technology Director</h5>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
                 </div>
 
             </div>
         </section>
 
-        <section>
+        <section style="margin-top:  130px" class="press">
             <div class="container">
                 <div class="row align-items-center" >
                     <div class="col-md-6">
-                        <h1 class="title black">
+                        <h2 class="title black">
                             Mentioned in the press
-                        </h1>
+                        </h2>
                     </div>
                 </div>
-                <div class="row mt-100 justify-content-center">
-                    <div class="mt-5 post-press col-md-4 blogBox ">
+                <div class="row  justify-content-center press-container">
+                    <div class="post-press col-sm-6 col-md-4 blogBox ">
                         <div class="post">
-                            <div>
-                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                            <div class="post-img">
+                                <img  src="/images/common/fon.png" alt="">
                             </div>
                             <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
@@ -610,10 +611,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 post-press col-md-4 blogBox ">
+                    <div class="post-press col-sm-6 col-md-4 blogBox ">
                         <div class="post">
-                            <div>
-                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                            <div class="post-img">
+                                <img src="/images/common/fon.png" alt="">
                             </div>
                             <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
@@ -626,10 +627,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
+                    <div class="post-press col-sm-6 col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
-                            <div>
-                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                            <div class="post-img">
+                                <img  src="/images/common/fon.png" alt="">
                             </div>
                             <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
@@ -642,10 +643,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
+                    <div class="post-press col-sm-6 col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
-                            <div>
-                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                            <div class="post-img">
+                                <img  src="/images/common/fon.png" alt="">
                             </div>
                             <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
@@ -658,10 +659,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 post-press col-md-4 blogBox moreBox" style="display: none">
+                    <div class="post-press col-sm-6 col-md-4 blogBox moreBox" style="display: none">
                         <div class="post">
-                            <div>
-                                <img  src="http://newslobby.net/wp-content/uploads/2018/07/dee.jpg" alt="">
+                            <div class="post-img">
+                                <img  src="/images/common/fon.png" alt="">
                             </div>
                             <div class="post-info">
                                 <div id="readmore" class="timestamp mb-1">12. 08. 2019</div>
@@ -676,18 +677,18 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
-                    <a id="loadMore" href=""><h5 class="title  text-secondary ">See more <span class="seemore"></span></h5></a>
+                    <a id="loadMore" href=""><h3 class="title" style="font-weight: 900;font-family: inherit; color: black">See more <span class="seemore"></span></h3></a>
                 </div>
             </div>
         </section>
 
-        <section class="contact mt-5 rounded-0" >
+        <section class="contact rounded-0" >
 
             <div class="container">
                 <div class="row justify-content-center">
-                    <h1  class="title text-center">Are you interested partnership?</h1>
+                    <h2  class="title text-center">Are you interested partnership?</h2>
                 </div>
-                <div class="row justify-content-center mt-5">
+                <div class="row justify-content-center" style="margin-top: 60px ">
                     <button class="btn btn-papayabot">Contact us</button>
                 </div>
             </div>
@@ -747,7 +748,7 @@
 
         <script>
          let post = 1;
-         if($(window).width() < 1024) {
+         if($(window).width() < 768) {
             post = 0;
              console.log('31231');
            }

@@ -1,5 +1,5 @@
 <footer>
-  <div class="container justify-content-center">
+  <div class="overflow-hidden justify-content-center footer-cont">
       <div class="row justify-content-center">
             <div class="order-1 col-md-3 col-sm-6  col-xs-3">
                 <a class="footer-logo" href="{{route('welcome')}}">
@@ -9,11 +9,11 @@
           <div class="order-3 order-md-2 col-md-6 col-sm-6">
               <div class="d-flex justify-content-around pages-links">
                   <a  style="    font-weight: 900;" href="{{route('about')}}">About</a>
-                  <a  style="    font-weight: 900;" href="{{route('terms_condition')}}">Tearms and conditions </a>
+                  <a  style="    font-weight: 900;" href="{{route('terms_condition')}}">Teams and conditions </a>
                   <a  style="    font-weight: 900;" href="{{route('faq')}}">FAQ</a>
               </div>
 
-              <p class="question text-center">Do you have a questions?  Mail us at: <span>papayabot@gmail.com</span></p>
+              <p class="question text-center">Do you have a questions? <br> Mail us at: <span>papayabot@gmail.com</span></p>
           </div>
           <div class="order-2  col-md-3 col-sm-6  col-xs-3 social" >
               <a class="footer-social-logo" href="/">

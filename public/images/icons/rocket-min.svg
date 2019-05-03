@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="43px" viewBox="0 0 60 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>4EC152E1-A204-4CF3-A312-97B55D07CD2E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0.936972128%" y1="18.3643721%" x2="100%" y2="90.3476013%" id="linearGradient-1">
+            <stop stop-color="#FFA661" offset="0%"></stop>
+            <stop stop-color="#FFDB80" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="FINALL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---tablet" transform="translate(-585.000000, -6617.000000)">
+            <g id="rocket-copy" transform="translate(621.500000, 6631.500000) scale(-1, 1) rotate(-63.000000) translate(-621.500000, -6631.500000) translate(592.000000, 6605.000000)">
+                <polygon id="Shape-5" fill="url(#linearGradient-1)" points="0.470053 32.377965 10.147646 19.614399 41.516235 39.431523 17.489193 11.553205 29.169069 0.46905 58.535434 52.53095"></polygon>
+                <polygon id="Shape-6" fill="#E19046" points="9.81395222 19.9502774 17.1555359 18.9426184 42.8510961 40.4391825"></polygon>
+                <polygon id="Shape-7" fill="#E69F52" points="16.8218342 18.942601 17.8229226 11.5531872 42.1837001 39.7673826"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

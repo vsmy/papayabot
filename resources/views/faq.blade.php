@@ -14,7 +14,7 @@
 <header class="about">
     <div class="container ">
         <div class="row">
-            <div class="col-md-6 d-flex flex-column justify-content-sm-between">
+            <div class="col-md-6 d-flex flex-column">
                 <div class="logo">
                     <a  href="{{route('welcome')}}"><h5 class="title-logo">Papayabot</h5></a>
                 </div>
@@ -22,7 +22,7 @@
                     <h1 class="title black">
                         FAQ
                     </h1>
-                    <div class="subtitle">
+                    <div class="subtitle head-margin sub">
                         We help the people make
                         fast, free and secure transactions.
                     </div>
@@ -278,7 +278,7 @@
         <div class="accordion">
             <div class="accordion-item">
                 <div class="accordion-title">
-                    <a class="title">Can I send my money inside Papayabot to other wallets?</a>
+                    <a class="title d-flex justify-content-center">Can I send my money inside Papayabot to other wallets?</a>
                 </div>
                 <div class="content">
                  <p>Yes. For Stellar tokens, you must have a Stellar wallet and its completely free. For other cryptocurrencies, you will be charged a <span>small fee.</span></p>
@@ -286,7 +286,7 @@
             </div>
             <div class="accordion-item">
                 <div class="accordion-title">
-                <a class="title">My transaction is stuck, what do I do?</a>
+                <a class="title d-flex justify-content-center">My transaction is stuck, what do I do?</a>
                 </div>
                 <div class="content">
                 <p>Yes. For Stellar tokens, you must have a Stellar wallet and its completely free. For other cryptocurrencies, you will be charged a <span>small fee.</span></p>
@@ -294,7 +294,7 @@
             </div>
             <div class="accordion-item">
                 <div class="accordion-title">
-                <a class="title">How do I list my token or cryptocurrency inside Papayabot?</a>
+                <a class="title d-flex justify-content-center">How do I list my token or cryptocurrency inside Papayabot?</a>
                 </div>
                 <div class="content">
                 <p>Yes. For Stellar tokens, you must have a Stellar wallet and its completely free. For other cryptocurrencies, you will be charged a <span>small fee.</span></p>
@@ -302,7 +302,7 @@
             </div>
             <div class="accordion-item">
                 <div class="accordion-title">
-                    <a class="title">Can I send my money inside Papayabot to other wallets?</a>
+                    <a class="title d-flex justify-content-center">Can I send my money inside Papayabot to other wallets?</a>
                 </div>
                 <div class="content">
                     <p>Yes. For Stellar tokens, you must have a Stellar wallet and its completely free. For other cryptocurrencies, you will be charged a  <span>small fee.</span></p>
@@ -310,7 +310,7 @@
             </div>
             <div class="accordion-item">
                 <div class="accordion-title">
-                    <a class="title">My transaction is stuck, what do I do?</a>
+                    <a class="title d-flex justify-content-center">My transaction is stuck, what do I do?</a>
                 </div>
                 <div class="content">
                     <p>Yes. For Stellar tokens, you must have a Stellar wallet and its completely free. For other cryptocurrencies, you will be charged a  <span>small fee.</span></p>
@@ -320,6 +320,7 @@
 
     </div>
 </section>
+
 
 
 @endsection

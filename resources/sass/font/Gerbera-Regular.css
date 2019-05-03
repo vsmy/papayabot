@@ -1,0 +1,14 @@
+/* Copyright (c) 2014 by Vyacheslav Kirilenko, Gayane Bagdasaryan. All rights reserved. */
+
+@font-face {
+	font-family: 'Gerbera-reg';
+	src: url('Gerbera-Regular.eot');
+	src:
+	     url('Gerbera-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('Gerbera-Regular.woff2') format('woff2'),
+	     url('Gerbera-Regular.woff') format('woff'),
+	     url('Gerbera-Regular.ttf') format('truetype'),
+	     url('Gerbera-Regular.svg#Gerbera') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -14,14 +14,14 @@
     <div class="container ">
         <div class="row justify-content-between">
             <div class="logo">
-                <a  href="{{route('welcome')}}"><h5 class="title-logo">Papayabot</h5></a>
+                <a  href="{{route('welcome')}}"><h5 class="title-logo ml-0">Papayabot</h5></a>
             </div>
             <a href="/" class="title-logo">Back to homepage</a>
         </div>
     </div>
 </section>
 
-<section class="standard" >
+<section class="standard mt-5" >
     <div class="container ">
         <h2 class="title">Terms and conditions</h2>
         <br><br><br>

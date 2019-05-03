@@ -1,0 +1,14 @@
+/* Copyright (c) 2014 by Vyacheslav Kirilenko, Gayane Bagdasaryan. All rights reserved. */
+
+@font-face {
+	font-family: 'GerberaBlack';
+	src: url('Gerbera-Black.eot');
+	src:
+	     url('Gerbera-Black.eot?#iefix') format('embedded-opentype'),
+	     url('Gerbera-Black.woff2') format('woff2'),
+	     url('Gerbera-Black.woff') format('woff'),
+	     url('Gerbera-Black.ttf') format('truetype'),
+	     url('Gerbera-Black.svg#Gerbera-Black') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

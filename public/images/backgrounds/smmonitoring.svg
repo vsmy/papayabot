@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="735" height="416" viewBox="0 0 735 416">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.667" y1="0.331" x2="0.663" y2="0.776" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc892" stop-opacity="0.243"/>
+      <stop offset="0.246" stop-color="#efcfb5" stop-opacity="0.141"/>
+      <stop offset="1" stop-color="#ccdeff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_1">
+      <rect width="735" height="416"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="group-21" transform="translate(1)">
+      <g id="Homepage--web" transform="translate(-1)">
+        <g id="Group-21-2" data-name="Group-21">
+          <g id="Group-19">
+            <g id="Group-7" transform="translate(0 59)">
+              <g id="Group-5">
+                <text id="Number_of_users" data-name="Number of users" transform="translate(0 17)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Number of users</tspan></text>
+                <g id="AXIS-_-Desktop-v2" data-name="AXIS-|-Desktop-v2" transform="translate(13.982 297.6)">
+                  <text id="_50K" data-name="50K" transform="translate(0 13)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.014em"><tspan x="0" y="0">50K</tspan></text>
+                  <rect id="Rectangle-7" width="1332.496" height="1.2" transform="translate(37.017 13)" fill="#e1e1ed" opacity="0.221"/>
+                </g>
+                <g id="AXIS-_-Desktop-v2-2" data-name="AXIS-|-Desktop-v2" transform="translate(7.138 219.6)">
+                  <text id="_100K" data-name="100K" transform="translate(0 13)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.014em"><tspan x="0" y="0">100K</tspan></text>
+                  <rect id="Rectangle-7-2" data-name="Rectangle-7" width="1332.496" height="1.2" transform="translate(43.861 13)" fill="#e1e1ed" opacity="0.221"/>
+                </g>
+                <g id="AXIS-_-Desktop-v2-3" data-name="AXIS-|-Desktop-v2" transform="translate(4.738 141.6)">
+                  <text id="_500K" data-name="500K" transform="translate(0 13)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.014em"><tspan x="0" y="0">500K</tspan></text>
+                  <rect id="Rectangle-7-3" data-name="Rectangle-7" width="1332.496" height="1.2" transform="translate(46.261 13)" fill="#e1e1ed" opacity="0.221"/>
+                </g>
+                <g id="AXIS-_-Desktop-v2-4" data-name="AXIS-|-Desktop-v2" transform="translate(1.626 64)">
+                  <text id="_1MLN" data-name="1MLN" transform="translate(0 13)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.014em"><tspan x="0" y="0">1MLN</tspan></text>
+                  <rect id="Rectangle-7-4" data-name="Rectangle-7" width="1332.496" height="1.2" transform="translate(49.373 13)" fill="#e1e1ed" opacity="0.221"/>
+                </g>
+                <g id="Wykres" transform="translate(49.8 56)">
+                  <g id="Group-6" transform="translate(6.2)">
+                    <g id="Path-8" transform="translate(0 4)">
+                      <path id="Path_10604" data-name="Path 10604" d="M.2,226.187c19.176,0,25.536,17.613,39.848,17.613s14.711-51.859,31.742-52.034,13.484,20.608,34.419,20.608,10.971-51.443,36.335-51.443,15.634,40.834,37.272,40.834,15.794-35.83,35.154-35.83,14.235-56.323,30.1-56.323,23.829,23.577,41.487,23.577S304.218,209,319.365,209s15.617-30.586,32.459-30.619,12.613,8.975,33.169,8.975,23.242-82.568,41.844-82.568,16.459,64.693,38.381,61.15,15.685-17.014,34.077-17.014S510.169,108.8,530.438,112.8s33.35-55.994,45.827-69,18.1-8.975,44.787-8.975q26.685,0,57.148-30.025" transform="translate(-0.2 -4.8)" fill="none"/>
+                      <path id="Path_10605" data-name="Path 10605" d="M.2,226.187c19.176,0,25.536,17.613,39.848,17.613s14.711-51.859,31.742-52.034,13.484,20.608,34.419,20.608,10.971-51.443,36.335-51.443,15.634,40.834,37.272,40.834,15.794-35.83,35.154-35.83,14.235-56.323,30.1-56.323,23.829,23.577,41.487,23.577S304.218,209,319.365,209s15.617-30.586,32.459-30.619,12.613,8.975,33.169,8.975,23.242-82.568,41.844-82.568,16.459,64.693,38.381,61.15,15.685-17.014,34.077-17.014S510.169,108.8,530.438,112.8s33.35-55.994,45.827-69,18.1-8.975,44.787-8.975q26.685,0,57.148-30.025" transform="translate(-0.2 -4.8)" fill="none" stroke="#fdc06e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+                    </g>
+                    <circle id="Oval-7" cx="3.5" cy="3.5" r="3.5" transform="translate(1326.556)" fill="#fff"/>
+                  </g>
+                  <path id="Path-8-2" data-name="Path-8" d="M0,226.428c18.391,0,25.536,17.656,39.848,17.656S54.558,192.1,71.59,191.923s13.484,20.658,34.42,20.658,13.26-51.981,37.4-51.981,13.149,39.6,34.788,39.6,17.214-34.172,36.573-34.172,14.235-56.461,30.1-56.461S268.7,133.2,286.36,133.2s17.659,76,32.805,76,11.257-30.7,32.458-30.7,23.94,17.5,39.2,6.7,17.208-80.472,35.809-80.472,16.1,64.224,38.025,60.672,16.041-16.8,34.432-16.8,11.216-35.8,31.772-35.8S567.458,52.3,578,43.3s15.761-8.7,42.448-8.7S649.6,26.8,678,4.6V272.2H0Z" transform="translate(7.001 -0.8)" fill-rule="evenodd" opacity="0.749" fill="url(#linear-gradient)"/>
+                </g>
+                <text id="_2016" data-name="2016" transform="translate(344.301 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="0" y="0">2016</tspan></text>
+                <text id="_2014" data-name="2014" transform="translate(52 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="0" y="0">2014</tspan></text>
+                <text id="_2017" data-name="2017" transform="translate(470.584 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="0" y="0">2017</tspan></text>
+                <text id="_2015" data-name="2015" transform="translate(198.018 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="0" y="0">2015</tspan></text>
+                <text id="_2017-2" data-name="2017" transform="translate(605.584 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="-13.576" y="0">2018</tspan></text>
+                <text id="_2017-3" data-name="2017" transform="translate(734.584 353.6)" fill="#fff" font-size="12" font-family="SegoeUI-SemiBold, Segoe UI" font-weight="600" letter-spacing="0.014em"><tspan x="-27.152" y="0">2020</tspan></text>
+              </g>
+            </g>
+            <g id="Group-17" transform="translate(225.063 72)">
+              <rect id="Rectangle-Copy-2" width="152" height="108" rx="8" fill="#2c137b"/>
+              <g id="Group-11" transform="translate(18 16.2)">
+                <g id="chevrons-up" transform="translate(109 60.8)">
+                  <path id="Shape" d="M8,4.167,4,0,0,4.167M8,10,4,5.833,0,10" fill="none" stroke="#fdc06e" stroke-linecap="round" stroke-width="1.6" fill-rule="evenodd"/>
+                </g>
+                <text id="Active_users" data-name="Active users" transform="translate(0 37.8)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">Active users</tspan></text>
+                <text id="_15.10.2016" data-name="15.10.2016" transform="translate(0 13)" fill="#7f7af0" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">15.10.2016</tspan></text>
+                <text id="_480K" data-name="480K" transform="translate(0 72.8)" fill="#fdc06e" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">480K</tspan></text>
+              </g>
+            </g>
+            <g id="Group-18" transform="translate(562.556)">
+              <rect id="Rectangle" width="160" height="108" rx="8" fill="#2c137b"/>
+              <g id="Group-11-2" data-name="Group-11" transform="translate(21 16)">
+                <g id="chevrons-up-2" data-name="chevrons-up" transform="translate(109 61.8)">
+                  <path id="Shape-2" data-name="Shape" d="M8,4.167,4,0,0,4.167M8,10,4,5.833,0,10" fill="none" stroke="#fdc06e" stroke-linecap="round" stroke-width="1.6" fill-rule="evenodd"/>
+                </g>
+                <text id="Active_users-2" data-name="Active users" transform="translate(0 37.8)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">Active users</tspan></text>
+                <text id="_15.12.2018" data-name="15.12.2018" transform="translate(0 13)" fill="#7f7af0" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">15.12.2018</tspan></text>
+                <text id="_930K" data-name="930K" transform="translate(0 72.8)" fill="#fdc06e" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.014em"><tspan x="0" y="0">930K</tspan></text>
+              </g>
+            </g>
+          </g>
+          <g id="Line" transform="translate(642.556 159.301)">
+            <path id="Path_10606" data-name="Path 10606" d="M1037,171V382.059" transform="translate(-1037 -171)"/>
+            <path id="Path_10607" data-name="Path 10607" stroke="#d6a075" d="M1037,171V382.059" fill="none" transform="translate(-1037 -171)" stroke-linecap="square" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4 10"/>
+          </g>
+          <g id="Line-2" data-name="Line" transform="translate(301.512 231.301)">
+            <path id="Path_10606-2" data-name="Path 10606" d="M1037.045,171V311" transform="translate(-1037.045 -171)"/>
+            <path id="Path_10607-2" data-name="Path 10607" stroke="#d6a075" d="M1037.045,171V311" fill="none" transform="translate(-1037.045 -171)" stroke-linecap="square" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4 10"/>
+          </g>
+          <circle id="Oval" cx="7" cy="7" r="7" transform="translate(635.556 143)" fill="#fdc06e" stroke="#fff" stroke-width="4"/>
+          <circle id="Oval-2" data-name="Oval" cx="7" cy="7" r="7" transform="translate(294.557 215)" fill="#fdc06e" stroke="#fff" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

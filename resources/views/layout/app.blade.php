@@ -15,9 +15,13 @@
 <main>
     @yield('content')
 </main>
-<br><br>
-    @include('layout.footer')
-
+{{--<br>--}}
+    {{--@include('layout.footer')--}}
+<style>
+    body {
+        background: yellow;
+    }
+</style>
 <script>
     const items = document.querySelectorAll(".accordion .accordion-title");
 
