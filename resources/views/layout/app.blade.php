@@ -18,9 +18,7 @@
 {{--<br>--}}
     {{--@include('layout.footer')--}}
 <style>
-    body {
-        background: yellow;
-    }
+
 </style>
 <script>
     const items = document.querySelectorAll(".accordion .accordion-title");

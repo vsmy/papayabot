@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="566px" viewBox="0 0 1440 566" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>679B8751-8746-4E19-8B3E-68362DF67FA1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="37.4074194%" cy="-18.1325395%" fx="37.4074194%" fy="-18.1325395%" r="131.90879%" gradientTransform="translate(0.374074,-0.181325),scale(0.416493,1.000000),rotate(25.852701),scale(1.000000,0.881704),translate(-0.374074,0.181325)" id="radialGradient-1">
+            <stop stop-color="#4724BB" offset="0%"></stop>
+            <stop stop-color="#15084E" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="1443" height="601"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pays-XDR---1440px" transform="translate(0.000000, -6733.000000)">
+            <g id="Group-55" transform="translate(0.000000, 6627.000000)">
+                <g id="Untitled-6" transform="translate(0.000000, 106.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
